@@ -15,5 +15,6 @@ Python m3u8 block files merge tool
 
 ### Wait a minute, while the command execute finished.
 
-#### PS: This script do not support which m3u8 with AES key, it supported at [Rust_m3u8_dl](https://github.com/ItiharaYuuko/Rust_m3u8_dl).
-                                        Enjoy
+#### PS: This script do not support which m3u8 file with AES key, it supported at [Rust_m3u8_dl](https://github.com/ItiharaYuuko/Rust_m3u8_dl).
+
+Enjoy.
