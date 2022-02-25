@@ -11,8 +11,9 @@ Python m3u8 block files merge tool
 7. Files processing and creating at current path.
 
 ## Command line for execute
+[^file replace]
   ```Bash
-  $ m3u8_merge.py <m3u8 file name> [^file replace]
+  $ m3u8_merge.py <m3u8 file name>
   ```
 
 ### Wait a minute, while the command execute finished.
