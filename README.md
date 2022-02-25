@@ -23,4 +23,4 @@ Python m3u8 block files merge tool
 Enjoy.
 
 ---
-[^file replace] Replace the <m3u8 file name> to your file path
+[^file replace] Replace the \<m3u8 file name\> to your file path
