@@ -7,10 +7,12 @@ Python m3u8 block files merge tool
 3. Transfer every merge files list to multithread reactor.
 4. Every threads processing one shell command to execute "FFMPEG" make 10 ts files to 1 bigger ts file.
 5. Continue process there bigger ts files output to final mp4 file.
+6. Purge all temp ts files.
+7. Files processing and creating at current path.
 
 ## Command line for execute
   ```Bash
-  $ m3u8_merge.py \<m3u8 file name\>
+  $ m3u8_merge.py <m3u8 file name> [^file replace]
   ```
 
 ### Wait a minute, while the command execute finished.
@@ -18,3 +20,6 @@ Python m3u8 block files merge tool
 #### PS: This script do not support which m3u8 file with AES key, it supported at [Rust_m3u8_dl](https://github.com/ItiharaYuuko/Rust_m3u8_dl).
 
 Enjoy.
+
+---
+[^file replace] Replace the <m3u8 file name> to your file path
